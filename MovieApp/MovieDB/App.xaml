@@ -1,0 +1,13 @@
+﻿<Application x:Class="MovieDB.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:MovieDB"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <BitmapImage x:Key="Relaeses" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="E:\Google Drive\School\Semester3\COMP2129 - C#\Assignments\LabTest2\MovieDB\MovieDB\MovieDB\files\ic_movie_white_48dp_2x.ico"/>
+        <BitmapImage x:Key="Search" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="E:\Google Drive\School\Semester3\COMP2129 - C#\Assignments\LabTest2\MovieDB\MovieDB\MovieDB\files\ic_search_white_48dp_2x.ico"/>
+        <BitmapImage x:Key="NowPlaying" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="E:\Google Drive\School\Semester3\COMP2129 - C#\Assignments\LabTest2\MovieDB\MovieDB\MovieDB\files\ic_local_movies_white_48dp_2x.ico"/>
+
+    </Application.Resources>
+</Application>
